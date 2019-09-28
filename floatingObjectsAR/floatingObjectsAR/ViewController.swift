@@ -35,7 +35,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
     
     @IBAction func removeObject(_ sender: Any) {
-        
+        cubeNode.removeFromParentNode()
     }
     
     override func viewWillAppear(_ animated: Bool) {
